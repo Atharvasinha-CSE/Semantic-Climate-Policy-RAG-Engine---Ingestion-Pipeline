@@ -33,10 +33,4 @@ Implements **4-bit NormalFloat (NF4) quantization** with double quantization sup
 ### 4. Guardrailed Context-Bounded Logic
 Designed with a zero-hallucination prompt topology. The model evaluates user inputs strictly against the retrieved semantic vectors. If a localized scientific or geographical query falls outside the uploaded framework document (e.g., specific regional weather tracking), the system executes a graceful, context-bound rejection rather than fabricating text.
 
----
-
-## 📦 Getting Started & Usage
-
-### Prerequisites
-To run this pipeline locally or in a notebook environment, ensure you have an NVIDIA GPU (minimum 16GB VRAM for non-quantized or 8GB VRAM for 4-bit quantized execution) and Python 3.10+. using google colab  is advise as it is easy to learn 
 
